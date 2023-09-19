@@ -1,0 +1,52 @@
+.container{
+  widht: 100%;
+  min-height: 100vh;
+  background-color: rgba(250, 200, 37, 0.808);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.logo{
+  max-width: 350px;
+}
+
+.titulo{
+  color: antiquewhite;
+  margin: 14px 0;
+}
+
+.area-categoria{
+  display: flex;
+  gap: 14px;
+  margin-border: 34px;
+}
+
+.bota0-categoria {
+  padding: 4px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao-frase{
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+}
+
+.texto-frase{
+  width: 430px;
+  background-color: aliceblue;
+  border-radius: 4px;
+  text-align: center;
+  padding: 14px 22px;
+  margin: 24px 0 16px 0;
+  line-height: 150%;
+  color: red;
+  front-style: italic;
+  front-size: 18px;
+}
